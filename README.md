@@ -2,6 +2,8 @@
 
 This is the official implementation of the paper _Disentangling the Performance Puzzle of Multimodal-aware Recommender Systems_, under review as full paper at EvalRS’23@KDD.
 
+This repository is heavily dependent on the framework **Elliot**, so we suggest you refer to the official GitHub [page](https://github.com/sisinflab/elliot) and [documentation](https://elliot.readthedocs.io/en/latest/).
+
 ## Table of Contents
 - [Pre-requisites](#pre-requisites)
 - [Installation](#installation)
