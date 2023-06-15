@@ -37,6 +37,23 @@ A more convenient way of running experiments is to instantiate a docker containe
 
 We provide already processed and split datasets in the ```./data/``` folder. Just unzip the files and you are done!
 
+Each dataset folder comes with the following files/subfolders:
+
+```
+<dataset_name>/
+  image_feat/
+    0.npy
+    1.npy
+    ...
+  text_feat/
+    0.npy
+    1.npy
+    ..
+  train.txt
+  test.txt
+  val.txt
+```
+
 ## Training
 
 To train all baselines on a specific dataset, run the following command:
