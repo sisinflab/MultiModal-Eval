@@ -69,6 +69,8 @@ config_files/
 
 where ```<dataset_name>``` is one of office, toys, clothing.
 
+Please, set the ```gpu``` field at your convenience (e.g., -1 is the default on the CPU).
+
 ## Training and evaluation
 
 To train all baselines on a specific dataset, run the following command:
