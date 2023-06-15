@@ -37,7 +37,11 @@ A more convenient way of running experiments is to instantiate a docker containe
 
 ## Datasets
 
-We provide already processed and split datasets in the ```./data/``` folder. Just unzip the files and you are done!
+We provide already processed and split datasets. You can download them from the link below, and then unzip them within the ./data/ folder:
+
+- Clothing: https://file.io/fAlxqqCmH9Yb
+- Toys: https://file.io/rOs7n2FZV70m
+- Office: https://file.io/OlmjBic6kap3
 
 Each dataset folder comes with the following files/subfolders:
 
