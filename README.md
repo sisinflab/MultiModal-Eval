@@ -23,11 +23,11 @@ If you have the possibility to install CUDA on your workstation (i.e., `10.2`), 
 ```sh
 # PYTORCH ENVIRONMENT (CUDA 10.2, cuDNN 8.0)
 
-$ python3.8 -m venv venv
-$ source venv/bin/activate
-$ pip install --upgrade pip
-$ pip install -r requirements.txt
-$ pip install -r requirements_torch_geometric.txt
+python3.8 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install -r requirements_torch_geometric.txt
 ```
 
 ### Docker
@@ -35,6 +35,16 @@ A more convenient way of running experiments is to instantiate a docker containe
 
 ## Datasets
 
+We provide already processed and split datasets in the ```./data/``` folder. Just unzip the files and you are done!
+
 ## Training
+
+To train all baselines on a specific dataset, run the following command:
+
+```sh
+python3.8 start_experiments.py --dataset <dataset_name>
+```
+
+Please consider that this may take some time depending on the machine you are running the experiments on.
 
 ## Evaluation
