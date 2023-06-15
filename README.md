@@ -67,4 +67,13 @@ where ```<dataset_name>``` is one of office, toys, clothing.
 
 Please consider that this may take some time depending on the machine you are running the experiments on.
 
-Once the training has ended for all models, you may find the tsv with all results at the path ```./results/<dataset_name>/performance/rec_cutoff_<cutoff>_relthreshold_0_<datetime>.tsv```.
+Once the training has ended for all models, you may find the tsv with all results at:
+
+```
+results/
+  <dataset_name>/
+    performance/
+      rec_cutoff_<cutoff>_relthreshold_0_<datetime>.tsv
+```
+
+where ```<dataset_name>``` is one of office, toys, clothing, ```<cutoff>``` is one of 10, 20, 50, and ```<datetime>``` depends on the date and time the results tsv file was created.
