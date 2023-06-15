@@ -10,6 +10,7 @@ This repository is heavily dependent on the framework **Elliot**, so we suggest 
   - [Local](#local)
   - [Docker](#docker)
 - [Datasets](#datasets)
+- [Hyperparameters](#hyperparameters)
 - [Training and evaluation](#training-and-evaluation)
 
 ## Pre-requisites
@@ -55,6 +56,17 @@ data/
     test.txt
     val.txt
 ```
+where ```<dataset_name>``` is one of office, toys, clothing.
+
+## Hyperparameters
+
+You may find the complete configuration file for each dataset at:
+
+```
+config_files/
+  <dataset_name>.yml
+```
+
 where ```<dataset_name>``` is one of office, toys, clothing.
 
 ## Training and evaluation
