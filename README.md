@@ -8,8 +8,7 @@ This is the official implementation of the paper _Disentangling the Performance 
   - [Local](#local)
   - [Docker](#docker)
 - [Datasets](#datasets)
-- [Training](#training)
-- [Evaluation](#evaluation)
+- [Training and evaluation](#training-and-evaluation)
 
 ## Pre-requisites
 
@@ -56,7 +55,7 @@ data/
 ```
 where ```<dataset_name>``` is one of office, toys, clothing.
 
-## Training
+## Training and evaluation
 
 To train all baselines on a specific dataset, run the following command:
 
@@ -68,4 +67,4 @@ where ```<dataset_name>``` is one of office, toys, clothing.
 
 Please consider that this may take some time depending on the machine you are running the experiments on.
 
-## Evaluation
+Once the training has ended for all models, you may find the tsv with all results at the path ```./results/<dataset_name>/performance/rec_cutoff_<cutoff>_relthreshold_0_<datetime>.tsv```.
