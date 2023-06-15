@@ -48,7 +48,7 @@ Each dataset folder comes with the following files/subfolders:
   text_feat/
     0.npy
     1.npy
-    ..
+    ...
   train.txt
   test.txt
   val.txt
