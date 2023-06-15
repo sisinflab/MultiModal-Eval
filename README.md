@@ -40,18 +40,19 @@ We provide already processed and split datasets in the ```./data/``` folder. Jus
 Each dataset folder comes with the following files/subfolders:
 
 ```
-<dataset_name>/
-  image_feat/
-    0.npy
-    1.npy
-    ...
-  text_feat/
-    0.npy
-    1.npy
-    ...
-  train.txt
-  test.txt
-  val.txt
+data/
+  <dataset_name>/
+    image_feat/
+      0.npy
+      1.npy
+      ...
+    text_feat/
+      0.npy
+      1.npy
+      ...
+    train.txt
+    test.txt
+    val.txt
 ```
 
 ## Training
