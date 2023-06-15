@@ -54,6 +54,7 @@ data/
     test.txt
     val.txt
 ```
+where ```<dataset_name>``` is one of office, toys, clothing.
 
 ## Training
 
@@ -62,6 +63,8 @@ To train all baselines on a specific dataset, run the following command:
 ```sh
 python3.8 start_experiments.py --dataset <dataset_name>
 ```
+
+where ```<dataset_name>``` is one of office, toys, clothing.
 
 Please consider that this may take some time depending on the machine you are running the experiments on.
 
